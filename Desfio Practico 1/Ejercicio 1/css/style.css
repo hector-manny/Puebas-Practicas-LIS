@@ -5,6 +5,13 @@ body{
     background-size: 40px 40px, 40px 40px, 20px 20px, 20px 20px;
 }
 
+.tarjeta{
+    background-color: #030313;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #030313 20%, #030313 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #030313 20%, #030313 80%, transparent 80%, transparent) 27.5px 27.5px, linear-gradient(#45f7a4 2.2px, transparent 2.2px) 0 -1.1px, linear-gradient(90deg, #45f7a4 2.2px, #030313 2.2px) -1.1px 0;
+background-size: 55px 55px, 55px 55px, 27.5px 27.5px, 27.5px 27.5px;
+}
+
 .titulo{
     color: #fff;
     text-align: center;
@@ -15,5 +22,8 @@ label{
 }
 .form{
     text-align: center;
+}
+.respuesta{
+    font-size: 40px;
 }
 

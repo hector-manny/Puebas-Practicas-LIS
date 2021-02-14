@@ -123,15 +123,15 @@ if(!$_POST){
 <body>
     <h1 class="titulo">Bienvenidos a Conversiones de Divisas UDB</h1>
     <br>
-    <div class="row justify-content-md-center">
+    <div class="row justify-content-md-center tarjeta">
         <div class="col-sm-8">
-    <div class="card  border-dark text-center color">
+    <div class="card  border-dark text-center color ">
         <div class="card-header">
-          Featured
+         
         </div>
         <div class="card-body-md">
             <br>
-          <h5 class="card-title">Special title treatment</h5>
+          <h5 class="card-title">convertir de X a Y moneda</h5>
           <br>
           <br>
           <form class="form-row" action="conversion.php" method="POST">
@@ -165,8 +165,9 @@ if(!$_POST){
                 <br>
                 <br>
                 <br>
+                <h3>La conversion es de: </h3>
                 <?php
-                    echo '<h1>La converion es: </h1>' + convertir();
+                    echo convertir();
                 ?>
                 <br>
                 <br>
