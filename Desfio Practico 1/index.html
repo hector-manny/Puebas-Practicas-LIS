@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Conversor De Monedas</title>
+</head>
+<body>
+    <h1 class="titulo">Bienvenidos a Conversiones de Divisas UDB</h1>
+    <br>
+    <div class="row justify-content-md-center">
+        <div class="col-sm-8">
+    <div class="card  border-dark text-center color">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body-md">
+            <br>
+          <h5 class="card-title">Special title treatment</h5>
+          <br>
+          <br>
+          <form class="form-row" action="conversion.php" method="POST">
+            <div class="col">
+                <input type="text" name="cantidad" class="form-control" placeholder="cantidad">
+              </div>
+            <div class="col-7">
+            <select class="form-control form-control-lg" name="moneda">
+                <option value="usd">Dolar</option>
+                <option value="eur">Euro</option>
+                <option value="jpy">Yen Japonés</option>
+                <option value="gbp">Libra Esterlina</option>
+            </select>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col-12 justify-content-md-center">
+                <input type="submit" class="btn btn-primary btn-lg" value="convertir">
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col justify-content-md-center">
+                <select class="form-control form-control-lg" name="dinero">
+                    <option value="usd">Dolar</option>
+                    <option value="eur">Euro</option>
+                    <option value="jpy">Yen Japonés</option>
+                    <option value="gbp">Libra Esterlina</option>
+                </select>
+                <br>
+                <br>
+                <br>
+        </form>
+        <br>
+        </div>
+      </div>
+        </div>
+    </div>
+</body>
+</html>
