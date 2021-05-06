@@ -1,0 +1,4 @@
+class biblioteca{
+
+public $autor;
+}
